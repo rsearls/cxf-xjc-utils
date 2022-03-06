@@ -47,7 +47,11 @@
         <cxf-buildtools-version>3.4.5-SNAPSHOT</cxf-buildtools-version>
         <jdk.version>1.8</jdk.version>
         <jaxb-version>3.0.1</jaxb-version>
+        <!-- rls
         <jaxb-runtime-version>3.0.2</jaxb-runtime-version>
+        -->
+        <!-- todo rls try version in future. -->
+        <jaxb-runtime-version>4.0.0-M3</jaxb-runtime-version>
 
         <eclipse.outputDirectory>${basedir}/target/classes</eclipse.outputDirectory>
         <downloadSources>true</downloadSources>
